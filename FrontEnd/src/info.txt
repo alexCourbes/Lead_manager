@@ -1,0 +1,6 @@
+COMPONENETS:
+
+this is were we will insert all of our components/frameworks
+e.g redux/webpack/react
+
+STATIC: complied JS
