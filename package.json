@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/alexCourbes/fullstackDjangoSite/issues"
   },
-  "homepage": "https://github.com/alexCourbes/fullstackDjangoSite#readme"
+  "homepage": "https://github.com/alexCourbes/fullstackDjangoSite#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
