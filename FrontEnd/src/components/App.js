@@ -1,4 +1,4 @@
-import React , {component} from 'react';
+import React , {Component} from 'react';
 import ReactDom from 'react-dom';
 
 import Header from "./layout/header";
