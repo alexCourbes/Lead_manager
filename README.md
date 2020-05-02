@@ -1,7 +1,7 @@
 # Lead Manager application
 
-#TBC !!!
-One Paragraph of project description goes here
+### To Be Completed !!!
+
 
 ## Getting Started
 
