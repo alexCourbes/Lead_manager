@@ -1,6 +1,7 @@
 # Lead Manager application
 
-One Paragraph of project description goes here
+### To Be Completed !!!
+
 
 ## Getting Started
 
