@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import {getLeads, deleteLead} from "../../actions/lead";
 
@@ -9,7 +9,7 @@ export class Leads extends Component {
 
         leads: PropTypes.array.isRequired,
         getLeads: PropTypes.func.isRequired,
-        delete: PropTypes.func.isRequired
+        deleteLead: PropTypes.func.isRequired
     }
 
     componentDidMount() {
@@ -34,7 +34,7 @@ export class Leads extends Component {
                     {this.props.leads.map(lead => (
                         <tr key={lead.id}>
                             <td>{lead.id}</td>
-                            <td>{lead.Name}</td>
+                            <td>{lead.name}</td>
                             <td>{lead.email}</td>
                             <td>{lead.message}</td>
                             <td>
